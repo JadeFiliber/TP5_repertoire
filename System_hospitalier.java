@@ -5,7 +5,7 @@ import java.util.List;
 
 public class System_hospitalier {
 	
-	private List<Requête> listRequetes;
+ 	private List<Requête> listRequetes;
 
 	public System_hospitalier(List<Requête> listRequetes) {
 		super();
@@ -34,12 +34,12 @@ public class System_hospitalier {
 	}
 	
 	private String analyserRequete(Requête requête) {
-		// Analyser la requête
+		// La méthode permet d'analyser les requêtes entrées en paramètres
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
-		// Comparaison des données
+		// La méthode permet de comparer les données avec la base de donnée
 		return "Cluster trouvé";
 	}
 
